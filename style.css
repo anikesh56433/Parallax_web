@@ -1,0 +1,94 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 500;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+  
+}
+.pimg2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+}
+.pimg1 , .pimg2 , .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+.about{
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #313535;
+    font-weight: 500;
+    background-color: white;
+
+}
+
+
+.textbg{
+    background-color: #313535;
+    color: white;
+    padding: 14px;
+    
+}
+.section {
+    padding: 50px 70px;
+    text-align: center;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-light h2{
+    font-size: 30px;
+    color: #313535;  
+}
+.section-dark{
+    background-color:#282e34;
+    color: #ddd;
+}
+.about1{
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #ddd;
+    font-weight: 500;
+    background-color:#282e34;
+
+}
+.about2{
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #ddd;
+    font-weight: 500;
+    background-color:#282e34;
+
+}
+
